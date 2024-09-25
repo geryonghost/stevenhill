@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title><%=pageTitle%></title>
+
+    <!-- Bootstrap CSS-->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome-->
+    <script src="js/fontawesome.js" crossorigin="anonymous"></script>
+
+    <!-- Enables Bootstrap CSS to be printable -->
+    <link href="css/bootstrap_printable.css" type="text/css" rel="stylesheet" media="print">
+
+    <style>
+        @media print {
+            .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+            .col-lg-3 {
+                width: 250px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main-content">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-primary d-print-none" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/"><i class="fa-solid fa-terminal"></i>&nbsp;Steven Hill</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resume</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="resume.pdf" target="_new">PDF Version</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Live Projects</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <!-- <li class="nav-item"><a class="nav-link <% if(pageTitle=="iseecoyotes") { %>active<% } %>" href="https://iseecoyotes.com">iseecoyotes.com</a></li> -->
+                                    <li><a class="dropdown-item" href="https://behavio.cc">Behavio</a></li>
+                                    <li><a class="dropdown-item" href="https://itsweatheroutside.com">It's Weather Outside</a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link <% if(pageTitle=="Not Scrap Yet") { %>active<% } %>" href="https://notscrapyet.com">notscrapyet.com</a></li> -->
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto">
+                            <script language="javaScript">
+                                user = 'cyb3rsteven';
+                                site = 'gmail.com';
+                                document.write('<a class=\"nav-link\" href=\"mailto:' + user + '@' + site + '\" target=\"_new\">');
+                                document.write('<i class=\"fa-solid fa-envelope fa-2xl\"></i></a>');
+                            </script>
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/geryonghost" target="_new"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/steven-hill-lisle/" target="_new"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+            </nav><br />
